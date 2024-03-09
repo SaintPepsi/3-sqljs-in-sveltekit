@@ -1,7 +1,11 @@
-# sql.js with sveltekit
+# Using sql.js with SvelteKit
 
-This is an example repo of how to use sql.js in sveltekit
+This repository provides an example of how to use sql.js in a SvelteKit project.
 
-[`vite-plugin-static-copy`](https://www.npmjs.com/package/vite-plugin-static-copy) is used to copy the `'sql-wasm.wasm'` from `'/node_modules/sql.js/dist/sql-wasm.wasm'` to `'/static/sql.js'`
+To achieve this, [`vite-plugin-static-copy`](https://www.npmjs.com/package/vite-plugin-static-copy) is utilised. It copies `'sql-wasm.wasm'` from `'/node_modules/sql.js/dist/sql-wasm.wasm'` to `'/static/sql.js'`.
 
-Feel free to create an issue to suggest improvements or alterations
+Please feel free to create an issue if you have any suggestions for improvements or alterations.
+
+### Goal
+
+The primary goal was to enable sql.js to function in both development and production builds. Please note that while this repository demonstrates how to get sql.js working, it may not provide the best practices for setting it up or utilizing it in your project.
